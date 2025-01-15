@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Venu</title>
+    <link rel="icon" href="call.png" type="image/icon type">
+    <style>
+        body {
+            
+            bottom: 100px;
+            background-color: #000;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding:90px;
+            border-top: 100px solid #000;
+        }
+        button {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color: white;
+    margin: 20px auto;
+    padding: 12px 25px;
+    border: none;
+    font-weight: bold;
+    background-color: #333;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+        button:hover {
+            background-color: #ffa500;
+            color: white;
+            transition: 0.3s ease;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #ffa500;
+            margin: 10px 0;
+        }
+        h2 {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: white;
+        }
+        .contact-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 20px;
+            max-width: 1200px;
+            flex-wrap: wrap;
+        }
+        .contact-item {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        .contact-item:hover {
+            background-color: #ffa500;
+            transform: scale(1.1);
+        }
+        .contact-item img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 15px;
+        }
+        .contact-item p {
+            font-size: 0.9rem;
+            color: white;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="window.location.href='index.html'">Go Back</button>
+    <h1>Connect with Me!</h1>
+    <div class="contact-container">
+        <!-- Instagram -->
+        <div class="contact-item">
+            <a href="https://www.instagram.com/venu___kantheti___/?__d=1" target="_blank">
+                <img src="insta.png" alt="Instagram">
+                <p>Instagram</p>
+            </a>
+        </div>
+        <!-- LinkedIn -->
+        <div class="contact-item">
+            <a href="https://www.linkedin.com/in/venu-vardhan-kantheti-9b8964314" target="_blank">
+                <img src="link.png" alt="LinkedIn">
+                <p>LinkedIn</p>
+            </a>
+        </div>
+        <!-- Gmail -->
+        <div class="contact-item">
+            <a href="mailto:venuvardhankantheti@gmail.com" target="_blank">
+                <img src="gmail.png" alt="Gmail">
+                <p>Gmail</p>
+            </a>
+        </div>
+        <!-- GitHub -->
+        <div class="contact-item">
+            <a href="https://github.com/venuvardhankanteti123" target="_blank">
+                <img src="git.png" alt="GitHub">
+                <p>GitHub</p>
+            </a>
+        </div>
+        <!-- Phone -->
+        <div class="contact-item">
+            <a href="tel:+916303919766" target="_blank">
+                <img src="phone.png" alt="Phone">
+                <p>Phone</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
